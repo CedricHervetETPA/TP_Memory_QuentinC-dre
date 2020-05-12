@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url('img/background.jpg');
+	background-position: center; 
+}
+#main{
+	height: 1070px;
+	width: 1300px;
+}
+
+#score{
+	display: flex;
+	flex-grow: row;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+#pièces{
+	margin-left: 10px;
+}
+
+button {
+	border-radius: 5px
+}
+
+#robot{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+	height: auto;
+	width: 250px;
+}
+
+#amelioration{
+	width: 400px;
+	height:  100px;
+	display: flex;
+	flex-grow: row;
+	flex-wrap: wrap;
+}
+
+
+
+.bras{
+	height: 50px;
+	width: 50px;
+	visibility: hidden;
+}
+
+
+#abras{
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.apack{
+	
+	margin-top: 2px;
+	width: 500px;
+	height: 100px;
+}
+
+.pack{
+	height: 50px;
+	width: 50px;
+	visibility: hidden;
+}
+
+#apack{
+	
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
